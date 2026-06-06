@@ -1,0 +1,15 @@
+[package]
+name = "entropy-lint"
+version = "0.1.0"
+edition = "2021"
+description = "Information entropy analysis for code quality — predicts bug-prone files via Shannon entropy"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+walkdir = "2"
+regex = "1"
+
+[[bin]]
+name = "entropy-lint"
+path = "src/main.rs"
