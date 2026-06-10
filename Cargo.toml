@@ -1,4 +1,5 @@
 [package]
+repository = "https://github.com/SuperInstance/entropy-lint"
 name = "entropy-lint"
 version = "0.1.0"
 edition = "2021"
